@@ -1,0 +1,25 @@
+{
+  "id": "US",
+  "name": "United States",
+  "description": "Creator and developer monetization reference entry for the United States.",
+  "category": "country",
+  "country_code": "US",
+  "currency": {
+    "code": "USD",
+    "name": "United States Dollar"
+  },
+  "tax_notes": "needs_verification: Federal, state, and local rules may apply. Contributors should cite current official guidance for specific claims.",
+  "payout_platforms": ["Stripe", "PayPal", "Bank transfer", "Platform-specific payouts"],
+  "developer_platform_notes": "Platform availability is often broad but still varies by product, state, account type, and risk review.",
+  "tags": ["united-states", "monetization", "creators"],
+  "sources": [
+    {
+      "title": "Internal Revenue Service",
+      "url": "https://www.irs.gov",
+      "type": "official",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. This is not tax, legal, or accounting advice."
+}

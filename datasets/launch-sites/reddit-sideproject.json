@@ -1,0 +1,25 @@
+{
+  "id": "reddit-sideproject",
+  "name": "Reddit r/SideProject",
+  "description": "A Reddit community where makers share side projects and ask for feedback.",
+  "category": "launch-site",
+  "submission_url": "https://www.reddit.com/r/SideProject/submit",
+  "audience": "Indie makers, builders, and people interested in small products.",
+  "suitable_for": ["Side projects", "Work-in-progress launches", "Feedback requests"],
+  "unsuitable_for": ["Spammy reposts", "Posts that ignore subreddit rules"],
+  "requires_account": "yes",
+  "moderation": "varies",
+  "cost": "no",
+  "backlink_value": "varies",
+  "tags": ["reddit", "community", "feedback"],
+  "sources": [
+    {
+      "title": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/",
+      "type": "community",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. Rules and moderation can change; contributors should check the subreddit before submitting."
+}

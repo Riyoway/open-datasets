@@ -1,0 +1,30 @@
+{
+  "id": "steam",
+  "name": "Steam",
+  "description": "A major PC game distribution platform with store pages, downloads, updates, and community features.",
+  "category": "distribution",
+  "website": "https://store.steampowered.com",
+  "tags": ["games", "pc", "store"],
+  "features": {
+    "paid_products": "yes",
+    "free_products": "yes",
+    "adult_content": "varies",
+    "license_keys": "partial",
+    "payouts": "varies",
+    "api_available": "partial"
+  },
+  "limits": {
+    "file_size": "needs_verification",
+    "release_count": "unknown"
+  },
+  "sources": [
+    {
+      "title": "Steamworks Documentation",
+      "url": "https://partner.steamgames.com/doc",
+      "type": "official",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. Steamworks rules, fees, keys, and release requirements change and need manual review."
+}

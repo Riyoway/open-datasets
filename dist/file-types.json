@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "group": "file-types",
+    "total_count": 6,
+    "generated_at": "2026-07-05T07:35:54.571Z"
+  },
+  "data": [
+    {
+      "id": "appimage",
+      "name": "AppImage",
+      "description": "A Linux application packaging format intended for portable app distribution.",
+      "category": "application-package",
+      "extension": ".appimage",
+      "mime_type": "application/vnd.appimage",
+      "common_uses": [
+        "Linux desktop apps",
+        "Portable app downloads"
+      ],
+      "open_standard": "partial",
+      "tags": [
+        "linux",
+        "desktop",
+        "portable"
+      ],
+      "sources": [
+        {
+          "title": "AppImage Documentation",
+          "url": "https://docs.appimage.org",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Verify MIME type and desktop integration behavior for target distributions."
+    },
+    {
+      "id": "dmg",
+      "name": "Apple Disk Image",
+      "description": "A disk image format commonly used to distribute macOS applications.",
+      "category": "installer",
+      "extension": ".dmg",
+      "mime_type": "application/x-apple-diskimage",
+      "common_uses": [
+        "macOS app distribution",
+        "Installers",
+        "Disk images"
+      ],
+      "open_standard": "unknown",
+      "tags": [
+        "macos",
+        "installer",
+        "distribution"
+      ],
+      "sources": [
+        {
+          "title": "Apple Developer Documentation",
+          "url": "https://developer.apple.com/documentation",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. MIME type and packaging behavior should be verified for the consuming system."
+    },
+    {
+      "id": "epub",
+      "name": "EPUB",
+      "description": "An ebook publication format used for reflowable and fixed-layout digital books.",
+      "category": "ebook",
+      "extension": ".epub",
+      "mime_type": "application/epub+zip",
+      "common_uses": [
+        "Ebooks",
+        "Digital publications",
+        "Reading apps"
+      ],
+      "open_standard": "yes",
+      "tags": [
+        "ebook",
+        "publishing",
+        "archive"
+      ],
+      "sources": [
+        {
+          "title": "IANA media type: application/epub+zip",
+          "url": "https://www.iana.org/assignments/media-types/application/epub+zip",
+          "type": "reference",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. EPUB profile support varies by reader and should be checked for target devices."
+    },
+    {
+      "id": "exe",
+      "name": "Windows Executable",
+      "description": "A common executable file extension used by Windows desktop software.",
+      "category": "executable",
+      "extension": ".exe",
+      "mime_type": "application/vnd.microsoft.portable-executable",
+      "common_uses": [
+        "Installers",
+        "Desktop apps",
+        "Command-line tools"
+      ],
+      "open_standard": "partial",
+      "tags": [
+        "windows",
+        "executable",
+        "software"
+      ],
+      "sources": [
+        {
+          "title": "IANA media type: application/vnd.microsoft.portable-executable",
+          "url": "https://www.iana.org/assignments/media-types/application/vnd.microsoft.portable-executable",
+          "type": "reference",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Verify signing and security behavior for each distribution channel."
+    },
+    {
+      "id": "pdf",
+      "name": "PDF",
+      "description": "A document format commonly used for fixed-layout documents and forms.",
+      "category": "document",
+      "extension": ".pdf",
+      "mime_type": "application/pdf",
+      "common_uses": [
+        "Documents",
+        "Forms",
+        "Reports",
+        "Print-ready files"
+      ],
+      "open_standard": "yes",
+      "tags": [
+        "document",
+        "portable",
+        "print"
+      ],
+      "sources": [
+        {
+          "title": "IANA media type: application/pdf",
+          "url": "https://www.iana.org/assignments/media-types/application/pdf",
+          "type": "reference",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Check current ISO and vendor documentation for exact feature support."
+    },
+    {
+      "id": "zip",
+      "name": "ZIP",
+      "description": "An archive file format commonly used to bundle and compress files.",
+      "category": "archive",
+      "extension": ".zip",
+      "mime_type": "application/zip",
+      "common_uses": [
+        "Archives",
+        "Downloads",
+        "Bundled project files"
+      ],
+      "open_standard": "partial",
+      "tags": [
+        "archive",
+        "compression",
+        "download"
+      ],
+      "sources": [
+        {
+          "title": "IANA media type: application/zip",
+          "url": "https://www.iana.org/assignments/media-types/application/zip",
+          "type": "reference",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. ZIP variants and metadata behavior differ between tools."
+    }
+  ]
+}

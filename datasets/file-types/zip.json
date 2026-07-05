@@ -1,0 +1,21 @@
+{
+  "id": "zip",
+  "name": "ZIP",
+  "description": "An archive file format commonly used to bundle and compress files.",
+  "category": "archive",
+  "extension": ".zip",
+  "mime_type": "application/zip",
+  "common_uses": ["Archives", "Downloads", "Bundled project files"],
+  "open_standard": "partial",
+  "tags": ["archive", "compression", "download"],
+  "sources": [
+    {
+      "title": "IANA media type: application/zip",
+      "url": "https://www.iana.org/assignments/media-types/application/zip",
+      "type": "reference",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. ZIP variants and metadata behavior differ between tools."
+}

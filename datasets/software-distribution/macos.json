@@ -1,0 +1,23 @@
+{
+  "id": "macos",
+  "name": "macOS App Distribution",
+  "description": "Common options and caution areas for distributing desktop software on macOS.",
+  "category": "software-distribution",
+  "os": "macOS",
+  "common_formats": [".dmg", ".pkg", ".app", ".zip"],
+  "signing_requirements": "varies",
+  "store_options": ["Mac App Store", "Direct download"],
+  "common_warnings": ["Unsigned or unnotarized apps may show Gatekeeper warnings", "Distribution requirements vary by channel"],
+  "recommended_for": ["Desktop apps", "Creative tools", "Developer tools"],
+  "tags": ["macos", "desktop", "distribution"],
+  "sources": [
+    {
+      "title": "Apple Developer: Distribution",
+      "url": "https://developer.apple.com/distribute/",
+      "type": "official",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. Verify signing, notarization, and store requirements with current Apple documentation."
+}

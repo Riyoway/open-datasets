@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "group": "platforms",
+    "total_count": 6,
+    "generated_at": "2026-07-05T07:35:54.571Z"
+  },
+  "data": [
+    {
+      "id": "booth",
+      "name": "BOOTH",
+      "description": "A creator marketplace commonly used for digital goods, physical goods, and creative works.",
+      "category": "marketplace",
+      "website": "https://booth.pm",
+      "tags": [
+        "creators",
+        "japan",
+        "digital-products"
+      ],
+      "features": {
+        "paid_products": "yes",
+        "free_products": "partial",
+        "adult_content": "varies",
+        "license_keys": "unknown",
+        "payouts": "varies",
+        "api_available": "unknown"
+      },
+      "limits": {
+        "file_size": "needs_verification",
+        "release_count": "unknown"
+      },
+      "sources": [
+        {
+          "title": "BOOTH Help Center",
+          "url": "https://booth.pixiv.help",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Verify seller, payout, and international availability details with current BOOTH help pages."
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "description": "A platform for hosting source code, releases, packages, and project collaboration.",
+      "category": "development",
+      "website": "https://github.com",
+      "tags": [
+        "code-hosting",
+        "open-source",
+        "releases"
+      ],
+      "features": {
+        "paid_products": "partial",
+        "free_products": "yes",
+        "adult_content": "varies",
+        "license_keys": "unknown",
+        "payouts": "partial",
+        "api_available": "yes"
+      },
+      "limits": {
+        "file_size": "needs_verification",
+        "release_count": "unknown"
+      },
+      "sources": [
+        {
+          "title": "GitHub Docs",
+          "url": "https://docs.github.com",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry based on public documentation links. Verify current limits and monetization details before production use."
+    },
+    {
+      "id": "gumroad",
+      "name": "Gumroad",
+      "description": "A platform for selling digital products, memberships, and creator-made goods.",
+      "category": "marketplace",
+      "website": "https://gumroad.com",
+      "tags": [
+        "creators",
+        "digital-products",
+        "commerce"
+      ],
+      "features": {
+        "paid_products": "yes",
+        "free_products": "partial",
+        "adult_content": "varies",
+        "license_keys": "unknown",
+        "payouts": "varies",
+        "api_available": "partial"
+      },
+      "limits": {
+        "file_size": "needs_verification",
+        "release_count": "unknown"
+      },
+      "sources": [
+        {
+          "title": "Gumroad Help Center",
+          "url": "https://help.gumroad.com",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Verify fee, payout, and product rules before relying on this data."
+    },
+    {
+      "id": "itch-io",
+      "name": "itch.io",
+      "description": "A platform for distributing indie games, tools, assets, and digital creations.",
+      "category": "distribution",
+      "website": "https://itch.io",
+      "tags": [
+        "indie",
+        "games",
+        "digital-products"
+      ],
+      "features": {
+        "paid_products": "yes",
+        "free_products": "yes",
+        "adult_content": "varies",
+        "license_keys": "unknown",
+        "payouts": "varies",
+        "api_available": "partial"
+      },
+      "limits": {
+        "file_size": "needs_verification",
+        "release_count": "unknown"
+      },
+      "sources": [
+        {
+          "title": "itch.io Creator FAQ",
+          "url": "https://itch.io/docs/creators/faq",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Store policy, payout, and content details should be checked manually."
+    },
+    {
+      "id": "product-hunt",
+      "name": "Product Hunt",
+      "description": "A product discovery platform used by makers to publish and discuss launches.",
+      "category": "discovery",
+      "website": "https://www.producthunt.com",
+      "tags": [
+        "launch",
+        "startups",
+        "products"
+      ],
+      "features": {
+        "paid_products": "partial",
+        "free_products": "yes",
+        "adult_content": "varies",
+        "license_keys": "unknown",
+        "payouts": "no",
+        "api_available": "partial"
+      },
+      "limits": {
+        "file_size": "unknown",
+        "release_count": "unknown"
+      },
+      "sources": [
+        {
+          "title": "Product Hunt Help Center",
+          "url": "https://help.producthunt.com",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Launch rules and API access should be verified against current Product Hunt documentation."
+    },
+    {
+      "id": "steam",
+      "name": "Steam",
+      "description": "A major PC game distribution platform with store pages, downloads, updates, and community features.",
+      "category": "distribution",
+      "website": "https://store.steampowered.com",
+      "tags": [
+        "games",
+        "pc",
+        "store"
+      ],
+      "features": {
+        "paid_products": "yes",
+        "free_products": "yes",
+        "adult_content": "varies",
+        "license_keys": "partial",
+        "payouts": "varies",
+        "api_available": "partial"
+      },
+      "limits": {
+        "file_size": "needs_verification",
+        "release_count": "unknown"
+      },
+      "sources": [
+        {
+          "title": "Steamworks Documentation",
+          "url": "https://partner.steamgames.com/doc",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Steamworks rules, fees, keys, and release requirements change and need manual review."
+    }
+  ]
+}

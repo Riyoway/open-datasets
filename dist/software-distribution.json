@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "group": "software-distribution",
+    "total_count": 3,
+    "generated_at": "2026-07-05T07:35:54.571Z"
+  },
+  "data": [
+    {
+      "id": "linux",
+      "name": "Linux Desktop Distribution",
+      "description": "Common options and caution areas for distributing desktop software on Linux.",
+      "category": "software-distribution",
+      "os": "Linux",
+      "common_formats": [
+        ".AppImage",
+        ".deb",
+        ".rpm",
+        ".tar.gz",
+        "Flatpak",
+        "Snap"
+      ],
+      "signing_requirements": "varies",
+      "store_options": [
+        "Flathub",
+        "Snap Store",
+        "Distribution repositories",
+        "Direct download"
+      ],
+      "common_warnings": [
+        "Package expectations vary by distribution",
+        "Sandboxing and update models vary by format"
+      ],
+      "recommended_for": [
+        "Open-source apps",
+        "Developer tools",
+        "Cross-platform desktop apps"
+      ],
+      "tags": [
+        "linux",
+        "desktop",
+        "distribution"
+      ],
+      "sources": [
+        {
+          "title": "Freedesktop.org",
+          "url": "https://www.freedesktop.org",
+          "type": "reference",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Distribution-specific requirements need verification for each target package format."
+    },
+    {
+      "id": "macos",
+      "name": "macOS App Distribution",
+      "description": "Common options and caution areas for distributing desktop software on macOS.",
+      "category": "software-distribution",
+      "os": "macOS",
+      "common_formats": [
+        ".dmg",
+        ".pkg",
+        ".app",
+        ".zip"
+      ],
+      "signing_requirements": "varies",
+      "store_options": [
+        "Mac App Store",
+        "Direct download"
+      ],
+      "common_warnings": [
+        "Unsigned or unnotarized apps may show Gatekeeper warnings",
+        "Distribution requirements vary by channel"
+      ],
+      "recommended_for": [
+        "Desktop apps",
+        "Creative tools",
+        "Developer tools"
+      ],
+      "tags": [
+        "macos",
+        "desktop",
+        "distribution"
+      ],
+      "sources": [
+        {
+          "title": "Apple Developer: Distribution",
+          "url": "https://developer.apple.com/distribute/",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Verify signing, notarization, and store requirements with current Apple documentation."
+    },
+    {
+      "id": "windows",
+      "name": "Windows Desktop Distribution",
+      "description": "Common options and caution areas for distributing desktop software on Windows.",
+      "category": "software-distribution",
+      "os": "Windows",
+      "common_formats": [
+        ".exe",
+        ".msi",
+        ".msix",
+        ".zip"
+      ],
+      "signing_requirements": "varies",
+      "store_options": [
+        "Microsoft Store",
+        "Direct download",
+        "Package managers"
+      ],
+      "common_warnings": [
+        "Unsigned installers may trigger warnings",
+        "Installer reputation can affect trust prompts"
+      ],
+      "recommended_for": [
+        "Desktop apps",
+        "Games",
+        "Developer tools"
+      ],
+      "tags": [
+        "windows",
+        "desktop",
+        "distribution"
+      ],
+      "sources": [
+        {
+          "title": "Microsoft Learn: Windows apps",
+          "url": "https://learn.microsoft.com/windows/apps/",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Signing, store, and SmartScreen behavior should be verified for the exact release path."
+    }
+  ]
+}

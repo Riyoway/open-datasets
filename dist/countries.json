@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "group": "countries",
+    "total_count": 2,
+    "generated_at": "2026-07-05T07:35:54.571Z"
+  },
+  "data": [
+    {
+      "id": "JP",
+      "name": "Japan",
+      "description": "Creator and developer monetization reference entry for Japan.",
+      "category": "country",
+      "country_code": "JP",
+      "currency": {
+        "code": "JPY",
+        "name": "Japanese Yen"
+      },
+      "tax_notes": "needs_verification: Tax treatment depends on residence, entity type, income source, and platform. Contributors should cite current official guidance for specific claims.",
+      "payout_platforms": [
+        "Stripe",
+        "PayPal",
+        "Bank transfer",
+        "Platform-specific payouts"
+      ],
+      "developer_platform_notes": "Availability and payout support vary by platform. Verify each platform's current Japan support pages before use.",
+      "tags": [
+        "japan",
+        "monetization",
+        "creators"
+      ],
+      "sources": [
+        {
+          "title": "National Tax Agency Japan",
+          "url": "https://www.nta.go.jp/english/",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. This is not tax, legal, or accounting advice."
+    },
+    {
+      "id": "US",
+      "name": "United States",
+      "description": "Creator and developer monetization reference entry for the United States.",
+      "category": "country",
+      "country_code": "US",
+      "currency": {
+        "code": "USD",
+        "name": "United States Dollar"
+      },
+      "tax_notes": "needs_verification: Federal, state, and local rules may apply. Contributors should cite current official guidance for specific claims.",
+      "payout_platforms": [
+        "Stripe",
+        "PayPal",
+        "Bank transfer",
+        "Platform-specific payouts"
+      ],
+      "developer_platform_notes": "Platform availability is often broad but still varies by product, state, account type, and risk review.",
+      "tags": [
+        "united-states",
+        "monetization",
+        "creators"
+      ],
+      "sources": [
+        {
+          "title": "Internal Revenue Service",
+          "url": "https://www.irs.gov",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. This is not tax, legal, or accounting advice."
+    }
+  ]
+}

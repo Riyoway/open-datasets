@@ -1,0 +1,30 @@
+{
+  "id": "itch-io",
+  "name": "itch.io",
+  "description": "A platform for distributing indie games, tools, assets, and digital creations.",
+  "category": "distribution",
+  "website": "https://itch.io",
+  "tags": ["indie", "games", "digital-products"],
+  "features": {
+    "paid_products": "yes",
+    "free_products": "yes",
+    "adult_content": "varies",
+    "license_keys": "unknown",
+    "payouts": "varies",
+    "api_available": "partial"
+  },
+  "limits": {
+    "file_size": "needs_verification",
+    "release_count": "unknown"
+  },
+  "sources": [
+    {
+      "title": "itch.io Creator FAQ",
+      "url": "https://itch.io/docs/creators/faq",
+      "type": "official",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. Store policy, payout, and content details should be checked manually."
+}

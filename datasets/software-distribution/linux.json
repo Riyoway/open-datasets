@@ -1,0 +1,23 @@
+{
+  "id": "linux",
+  "name": "Linux Desktop Distribution",
+  "description": "Common options and caution areas for distributing desktop software on Linux.",
+  "category": "software-distribution",
+  "os": "Linux",
+  "common_formats": [".AppImage", ".deb", ".rpm", ".tar.gz", "Flatpak", "Snap"],
+  "signing_requirements": "varies",
+  "store_options": ["Flathub", "Snap Store", "Distribution repositories", "Direct download"],
+  "common_warnings": ["Package expectations vary by distribution", "Sandboxing and update models vary by format"],
+  "recommended_for": ["Open-source apps", "Developer tools", "Cross-platform desktop apps"],
+  "tags": ["linux", "desktop", "distribution"],
+  "sources": [
+    {
+      "title": "Freedesktop.org",
+      "url": "https://www.freedesktop.org",
+      "type": "reference",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. Distribution-specific requirements need verification for each target package format."
+}

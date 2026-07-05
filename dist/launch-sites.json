@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "group": "launch-sites",
+    "total_count": 3,
+    "generated_at": "2026-07-05T07:35:54.571Z"
+  },
+  "data": [
+    {
+      "id": "hacker-news-show",
+      "name": "Hacker News Show HN",
+      "description": "A Hacker News submission format used to show projects to a technical audience.",
+      "category": "launch-site",
+      "submission_url": "https://news.ycombinator.com/submit",
+      "audience": "Developers, founders, researchers, and technical readers.",
+      "suitable_for": [
+        "Technical products",
+        "Open-source tools",
+        "Developer projects"
+      ],
+      "unsuitable_for": [
+        "Pure marketing pages",
+        "Low-context announcements"
+      ],
+      "requires_account": "yes",
+      "moderation": "varies",
+      "cost": "no",
+      "backlink_value": "varies",
+      "tags": [
+        "community",
+        "technical",
+        "launch"
+      ],
+      "sources": [
+        {
+          "title": "Hacker News Guidelines",
+          "url": "https://news.ycombinator.com/newsguidelines.html",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Community norms and moderation behavior can vary; verify current guidelines before posting."
+    },
+    {
+      "id": "product-hunt",
+      "name": "Product Hunt",
+      "description": "A discovery community where makers submit new products for discussion and ranking.",
+      "category": "launch-site",
+      "submission_url": "https://www.producthunt.com/posts/new",
+      "audience": "Startup founders, makers, early adopters, investors, and product-focused communities.",
+      "suitable_for": [
+        "SaaS products",
+        "developer tools",
+        "consumer apps",
+        "AI tools"
+      ],
+      "unsuitable_for": [
+        "Unlaunched ideas without a usable page",
+        "Projects that cannot handle public feedback"
+      ],
+      "requires_account": "yes",
+      "moderation": "varies",
+      "cost": "varies",
+      "backlink_value": "varies",
+      "tags": [
+        "launch",
+        "startups",
+        "discovery"
+      ],
+      "sources": [
+        {
+          "title": "Product Hunt Help Center",
+          "url": "https://help.producthunt.com",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Submission flow, timing, and account requirements need manual verification."
+    },
+    {
+      "id": "reddit-sideproject",
+      "name": "Reddit r/SideProject",
+      "description": "A Reddit community where makers share side projects and ask for feedback.",
+      "category": "launch-site",
+      "submission_url": "https://www.reddit.com/r/SideProject/submit",
+      "audience": "Indie makers, builders, and people interested in small products.",
+      "suitable_for": [
+        "Side projects",
+        "Work-in-progress launches",
+        "Feedback requests"
+      ],
+      "unsuitable_for": [
+        "Spammy reposts",
+        "Posts that ignore subreddit rules"
+      ],
+      "requires_account": "yes",
+      "moderation": "varies",
+      "cost": "no",
+      "backlink_value": "varies",
+      "tags": [
+        "reddit",
+        "community",
+        "feedback"
+      ],
+      "sources": [
+        {
+          "title": "r/SideProject",
+          "url": "https://www.reddit.com/r/SideProject/",
+          "type": "community",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial entry. Rules and moderation can change; contributors should check the subreddit before submitting."
+    }
+  ]
+}

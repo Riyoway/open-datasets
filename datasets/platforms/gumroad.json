@@ -1,0 +1,30 @@
+{
+  "id": "gumroad",
+  "name": "Gumroad",
+  "description": "A platform for selling digital products, memberships, and creator-made goods.",
+  "category": "marketplace",
+  "website": "https://gumroad.com",
+  "tags": ["creators", "digital-products", "commerce"],
+  "features": {
+    "paid_products": "yes",
+    "free_products": "partial",
+    "adult_content": "varies",
+    "license_keys": "unknown",
+    "payouts": "varies",
+    "api_available": "partial"
+  },
+  "limits": {
+    "file_size": "needs_verification",
+    "release_count": "unknown"
+  },
+  "sources": [
+    {
+      "title": "Gumroad Help Center",
+      "url": "https://help.gumroad.com",
+      "type": "official",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. Verify fee, payout, and product rules before relying on this data."
+}

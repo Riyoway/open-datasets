@@ -1,0 +1,30 @@
+{
+  "id": "github",
+  "name": "GitHub",
+  "description": "A platform for hosting source code, releases, packages, and project collaboration.",
+  "category": "development",
+  "website": "https://github.com",
+  "tags": ["code-hosting", "open-source", "releases"],
+  "features": {
+    "paid_products": "partial",
+    "free_products": "yes",
+    "adult_content": "varies",
+    "license_keys": "unknown",
+    "payouts": "partial",
+    "api_available": "yes"
+  },
+  "limits": {
+    "file_size": "needs_verification",
+    "release_count": "unknown"
+  },
+  "sources": [
+    {
+      "title": "GitHub Docs",
+      "url": "https://docs.github.com",
+      "type": "official",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry based on public documentation links. Verify current limits and monetization details before production use."
+}

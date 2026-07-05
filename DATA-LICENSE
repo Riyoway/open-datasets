@@ -1,0 +1,18 @@
+Dataset License
+
+The JSON dataset contents in this repository are licensed under the Creative
+Commons Attribution 4.0 International License.
+
+SPDX-License-Identifier: CC-BY-4.0
+
+License text:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Human-readable summary:
+https://creativecommons.org/licenses/by/4.0/
+
+This license applies to dataset contents under datasets/ and generated dataset
+outputs under dist/.
+
+The MIT License in LICENSE applies to code, scripts, schemas, and documentation
+unless a file states otherwise.

@@ -1,0 +1,25 @@
+{
+  "name": "@riyo/open-datasets",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Open structured datasets for developers, creators, and indie makers.",
+  "type": "module",
+  "scripts": {
+    "validate": "tsx scripts/validate.ts",
+    "build": "tsx scripts/build.ts",
+    "check": "npm run validate && npm run build"
+  },
+  "keywords": [
+    "datasets",
+    "json",
+    "open-data",
+    "schemas"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "ajv": "^8.16.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}

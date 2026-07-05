@@ -1,0 +1,23 @@
+{
+  "id": "gpl-3.0",
+  "name": "GNU General Public License v3.0",
+  "description": "A copyleft open-source software license.",
+  "category": "software-license",
+  "spdx_id": "GPL-3.0-only",
+  "license_family": "copyleft",
+  "commercial_use": "yes",
+  "modification": "yes",
+  "distribution": "yes",
+  "patent_grant": "partial",
+  "tags": ["open-source", "copyleft", "software"],
+  "sources": [
+    {
+      "title": "SPDX License List: GPL-3.0-only",
+      "url": "https://spdx.org/licenses/GPL-3.0-only.html",
+      "type": "reference",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial summary only. Copyleft obligations need careful review for each project."
+}

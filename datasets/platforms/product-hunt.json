@@ -1,0 +1,30 @@
+{
+  "id": "product-hunt",
+  "name": "Product Hunt",
+  "description": "A product discovery platform used by makers to publish and discuss launches.",
+  "category": "discovery",
+  "website": "https://www.producthunt.com",
+  "tags": ["launch", "startups", "products"],
+  "features": {
+    "paid_products": "partial",
+    "free_products": "yes",
+    "adult_content": "varies",
+    "license_keys": "unknown",
+    "payouts": "no",
+    "api_available": "partial"
+  },
+  "limits": {
+    "file_size": "unknown",
+    "release_count": "unknown"
+  },
+  "sources": [
+    {
+      "title": "Product Hunt Help Center",
+      "url": "https://help.producthunt.com",
+      "type": "official",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. Launch rules and API access should be verified against current Product Hunt documentation."
+}

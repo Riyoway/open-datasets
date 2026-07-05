@@ -1,0 +1,23 @@
+{
+  "id": "mit",
+  "name": "MIT License",
+  "description": "A short permissive open-source software license.",
+  "category": "software-license",
+  "spdx_id": "MIT",
+  "license_family": "permissive",
+  "commercial_use": "yes",
+  "modification": "yes",
+  "distribution": "yes",
+  "patent_grant": "unknown",
+  "tags": ["open-source", "permissive", "software"],
+  "sources": [
+    {
+      "title": "SPDX License List: MIT",
+      "url": "https://spdx.org/licenses/MIT.html",
+      "type": "reference",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial summary only. This is not legal advice; verify the license text and obligations before use."
+}

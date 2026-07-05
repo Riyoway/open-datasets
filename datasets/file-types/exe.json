@@ -1,0 +1,21 @@
+{
+  "id": "exe",
+  "name": "Windows Executable",
+  "description": "A common executable file extension used by Windows desktop software.",
+  "category": "executable",
+  "extension": ".exe",
+  "mime_type": "application/vnd.microsoft.portable-executable",
+  "common_uses": ["Installers", "Desktop apps", "Command-line tools"],
+  "open_standard": "partial",
+  "tags": ["windows", "executable", "software"],
+  "sources": [
+    {
+      "title": "IANA media type: application/vnd.microsoft.portable-executable",
+      "url": "https://www.iana.org/assignments/media-types/application/vnd.microsoft.portable-executable",
+      "type": "reference",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. Verify signing and security behavior for each distribution channel."
+}

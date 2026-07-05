@@ -1,0 +1,21 @@
+{
+  "id": "appimage",
+  "name": "AppImage",
+  "description": "A Linux application packaging format intended for portable app distribution.",
+  "category": "application-package",
+  "extension": ".appimage",
+  "mime_type": "application/vnd.appimage",
+  "common_uses": ["Linux desktop apps", "Portable app downloads"],
+  "open_standard": "partial",
+  "tags": ["linux", "desktop", "portable"],
+  "sources": [
+    {
+      "title": "AppImage Documentation",
+      "url": "https://docs.appimage.org",
+      "type": "official",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. Verify MIME type and desktop integration behavior for target distributions."
+}

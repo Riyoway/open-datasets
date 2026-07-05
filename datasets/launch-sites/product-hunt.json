@@ -1,0 +1,25 @@
+{
+  "id": "product-hunt",
+  "name": "Product Hunt",
+  "description": "A discovery community where makers submit new products for discussion and ranking.",
+  "category": "launch-site",
+  "submission_url": "https://www.producthunt.com/posts/new",
+  "audience": "Startup founders, makers, early adopters, investors, and product-focused communities.",
+  "suitable_for": ["SaaS products", "developer tools", "consumer apps", "AI tools"],
+  "unsuitable_for": ["Unlaunched ideas without a usable page", "Projects that cannot handle public feedback"],
+  "requires_account": "yes",
+  "moderation": "varies",
+  "cost": "varies",
+  "backlink_value": "varies",
+  "tags": ["launch", "startups", "discovery"],
+  "sources": [
+    {
+      "title": "Product Hunt Help Center",
+      "url": "https://help.producthunt.com",
+      "type": "official",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. Submission flow, timing, and account requirements need manual verification."
+}

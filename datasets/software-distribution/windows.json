@@ -1,0 +1,23 @@
+{
+  "id": "windows",
+  "name": "Windows Desktop Distribution",
+  "description": "Common options and caution areas for distributing desktop software on Windows.",
+  "category": "software-distribution",
+  "os": "Windows",
+  "common_formats": [".exe", ".msi", ".msix", ".zip"],
+  "signing_requirements": "varies",
+  "store_options": ["Microsoft Store", "Direct download", "Package managers"],
+  "common_warnings": ["Unsigned installers may trigger warnings", "Installer reputation can affect trust prompts"],
+  "recommended_for": ["Desktop apps", "Games", "Developer tools"],
+  "tags": ["windows", "desktop", "distribution"],
+  "sources": [
+    {
+      "title": "Microsoft Learn: Windows apps",
+      "url": "https://learn.microsoft.com/windows/apps/",
+      "type": "official",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. Signing, store, and SmartScreen behavior should be verified for the exact release path."
+}

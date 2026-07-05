@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "group": "licenses",
+    "total_count": 4,
+    "generated_at": "2026-07-05T07:35:54.571Z"
+  },
+  "data": [
+    {
+      "id": "apache-2.0",
+      "name": "Apache License 2.0",
+      "description": "A permissive open-source software license with explicit patent-related terms.",
+      "category": "software-license",
+      "spdx_id": "Apache-2.0",
+      "license_family": "permissive",
+      "commercial_use": "yes",
+      "modification": "yes",
+      "distribution": "yes",
+      "patent_grant": "yes",
+      "tags": [
+        "open-source",
+        "permissive",
+        "software"
+      ],
+      "sources": [
+        {
+          "title": "SPDX License List: Apache-2.0",
+          "url": "https://spdx.org/licenses/Apache-2.0.html",
+          "type": "reference",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial summary only. This is not legal advice; verify the license text and obligations before use."
+    },
+    {
+      "id": "cc-by-4.0",
+      "name": "Creative Commons Attribution 4.0 International",
+      "description": "A Creative Commons license commonly used for data, writing, media, and other creative works.",
+      "category": "content-license",
+      "spdx_id": "CC-BY-4.0",
+      "license_family": "attribution",
+      "commercial_use": "yes",
+      "modification": "yes",
+      "distribution": "yes",
+      "patent_grant": "unknown",
+      "tags": [
+        "creative-commons",
+        "data",
+        "content"
+      ],
+      "sources": [
+        {
+          "title": "Creative Commons BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "official",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial summary only. Attribution requirements should be verified before publishing derived datasets."
+    },
+    {
+      "id": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "description": "A copyleft open-source software license.",
+      "category": "software-license",
+      "spdx_id": "GPL-3.0-only",
+      "license_family": "copyleft",
+      "commercial_use": "yes",
+      "modification": "yes",
+      "distribution": "yes",
+      "patent_grant": "partial",
+      "tags": [
+        "open-source",
+        "copyleft",
+        "software"
+      ],
+      "sources": [
+        {
+          "title": "SPDX License List: GPL-3.0-only",
+          "url": "https://spdx.org/licenses/GPL-3.0-only.html",
+          "type": "reference",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial summary only. Copyleft obligations need careful review for each project."
+    },
+    {
+      "id": "mit",
+      "name": "MIT License",
+      "description": "A short permissive open-source software license.",
+      "category": "software-license",
+      "spdx_id": "MIT",
+      "license_family": "permissive",
+      "commercial_use": "yes",
+      "modification": "yes",
+      "distribution": "yes",
+      "patent_grant": "unknown",
+      "tags": [
+        "open-source",
+        "permissive",
+        "software"
+      ],
+      "sources": [
+        {
+          "title": "SPDX License List: MIT",
+          "url": "https://spdx.org/licenses/MIT.html",
+          "type": "reference",
+          "last_checked": "2026-07-05"
+        }
+      ],
+      "last_checked": "2026-07-05",
+      "notes": "Initial summary only. This is not legal advice; verify the license text and obligations before use."
+    }
+  ]
+}

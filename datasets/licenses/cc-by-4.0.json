@@ -1,0 +1,23 @@
+{
+  "id": "cc-by-4.0",
+  "name": "Creative Commons Attribution 4.0 International",
+  "description": "A Creative Commons license commonly used for data, writing, media, and other creative works.",
+  "category": "content-license",
+  "spdx_id": "CC-BY-4.0",
+  "license_family": "attribution",
+  "commercial_use": "yes",
+  "modification": "yes",
+  "distribution": "yes",
+  "patent_grant": "unknown",
+  "tags": ["creative-commons", "data", "content"],
+  "sources": [
+    {
+      "title": "Creative Commons BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "type": "official",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial summary only. Attribution requirements should be verified before publishing derived datasets."
+}

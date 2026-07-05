@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "total_count": 24,
+    "generated_at": "2026-07-05T07:35:54.571Z",
+    "groups": [
+      {
+        "id": "platforms",
+        "file": "platforms.json",
+        "count": 6
+      },
+      {
+        "id": "launch-sites",
+        "file": "launch-sites.json",
+        "count": 3
+      },
+      {
+        "id": "software-distribution",
+        "file": "software-distribution.json",
+        "count": 3
+      },
+      {
+        "id": "file-types",
+        "file": "file-types.json",
+        "count": 6
+      },
+      {
+        "id": "licenses",
+        "file": "licenses.json",
+        "count": 4
+      },
+      {
+        "id": "countries",
+        "file": "countries.json",
+        "count": 2
+      }
+    ]
+  }
+}

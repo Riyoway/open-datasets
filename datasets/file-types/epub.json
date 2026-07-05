@@ -1,0 +1,21 @@
+{
+  "id": "epub",
+  "name": "EPUB",
+  "description": "An ebook publication format used for reflowable and fixed-layout digital books.",
+  "category": "ebook",
+  "extension": ".epub",
+  "mime_type": "application/epub+zip",
+  "common_uses": ["Ebooks", "Digital publications", "Reading apps"],
+  "open_standard": "yes",
+  "tags": ["ebook", "publishing", "archive"],
+  "sources": [
+    {
+      "title": "IANA media type: application/epub+zip",
+      "url": "https://www.iana.org/assignments/media-types/application/epub+zip",
+      "type": "reference",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. EPUB profile support varies by reader and should be checked for target devices."
+}

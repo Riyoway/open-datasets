@@ -1,0 +1,30 @@
+{
+  "id": "booth",
+  "name": "BOOTH",
+  "description": "A creator marketplace commonly used for digital goods, physical goods, and creative works.",
+  "category": "marketplace",
+  "website": "https://booth.pm",
+  "tags": ["creators", "japan", "digital-products"],
+  "features": {
+    "paid_products": "yes",
+    "free_products": "partial",
+    "adult_content": "varies",
+    "license_keys": "unknown",
+    "payouts": "varies",
+    "api_available": "unknown"
+  },
+  "limits": {
+    "file_size": "needs_verification",
+    "release_count": "unknown"
+  },
+  "sources": [
+    {
+      "title": "BOOTH Help Center",
+      "url": "https://booth.pixiv.help",
+      "type": "official",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. Verify seller, payout, and international availability details with current BOOTH help pages."
+}

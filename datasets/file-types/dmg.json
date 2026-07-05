@@ -1,0 +1,21 @@
+{
+  "id": "dmg",
+  "name": "Apple Disk Image",
+  "description": "A disk image format commonly used to distribute macOS applications.",
+  "category": "installer",
+  "extension": ".dmg",
+  "mime_type": "application/x-apple-diskimage",
+  "common_uses": ["macOS app distribution", "Installers", "Disk images"],
+  "open_standard": "unknown",
+  "tags": ["macos", "installer", "distribution"],
+  "sources": [
+    {
+      "title": "Apple Developer Documentation",
+      "url": "https://developer.apple.com/documentation",
+      "type": "official",
+      "last_checked": "2026-07-05"
+    }
+  ],
+  "last_checked": "2026-07-05",
+  "notes": "Initial entry. MIME type and packaging behavior should be verified for the consuming system."
+}

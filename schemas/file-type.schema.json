@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://riyo.me/schemas/open-datasets/file-type.schema.json",
+  "$id": "https://api.riyo.me/schemas/open-datasets/file-type.schema.json",
   "title": "File type dataset item",
   "type": "object",
   "required": [

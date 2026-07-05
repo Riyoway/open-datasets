@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://riyo.me/schemas/open-datasets/launch-site.schema.json",
+  "$id": "https://api.riyo.me/schemas/open-datasets/launch-site.schema.json",
   "title": "Launch site dataset item",
   "type": "object",
   "required": [

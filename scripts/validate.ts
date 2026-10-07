@@ -55,7 +55,7 @@ async function readJson(filePath: string): Promise<unknown> {
 }
 
 async function loadValidators(): Promise<Record<string, ValidateFunction>> {
-  const ajv = new Ajv({ allErrors: true, strict: true });
+  const ajv = new Ajv({ allErrors: true, strict: true, allowUnionTypes: true });
   const validators: Record<string, ValidateFunction> = {};
   for (const [group, schemaFile] of Object.entries(schemaByGroup)) {
     validators[group] = ajv.compile(await readJson(path.join(schemasDir, schemaFile)));

@@ -12,7 +12,12 @@ const groupOrder = [
   "software-distribution",
   "file-types",
   "licenses",
-  "countries"
+  "countries",
+  "security",
+  "ransomware",
+  "eol",
+  "emulation",
+  "services"
 ];
 
 async function writeJson(fileName: string, data: unknown): Promise<void> {
@@ -23,10 +28,7 @@ async function build(): Promise<void> {
   const records = await validateDatasets();
   const generatedAt = new Date().toISOString();
   const grouped = new Map<string, unknown[]>();
-
-  for (const group of groupOrder) {
-    grouped.set(group, []);
-  }
+  for (const group of groupOrder) grouped.set(group, []);
 
   for (const record of records) {
     const groupRecords = grouped.get(record.group) ?? [];
@@ -42,21 +44,12 @@ async function build(): Promise<void> {
       const right = typeof b === "object" && b && "id" in b ? String(b.id) : "";
       return left.localeCompare(right);
     });
-
-    return {
-      id: group,
-      file: `${group}.json`,
-      count: data.length
-    };
+    return { id: group, file: `${group}.json`, count: data.length };
   });
 
   for (const group of groups) {
     await writeJson(group.file, {
-      metadata: {
-        group: group.id,
-        total_count: group.count,
-        generated_at: generatedAt
-      },
+      metadata: { group: group.id, total_count: group.count, generated_at: generatedAt },
       data: (grouped.get(group.id) ?? []).sort((a, b) => {
         const left = typeof a === "object" && a && "id" in a ? String(a.id) : "";
         const right = typeof b === "object" && b && "id" in b ? String(b.id) : "";
@@ -66,11 +59,7 @@ async function build(): Promise<void> {
   }
 
   await writeJson("index.json", {
-    metadata: {
-      total_count: records.length,
-      generated_at: generatedAt,
-      groups
-    }
+    metadata: { total_count: records.length, generated_at: generatedAt, groups }
   });
 
   console.log(`Built ${records.length} records into dist/.`);

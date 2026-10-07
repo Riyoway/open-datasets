@@ -2,34 +2,26 @@
 
 Open structured datasets for developers, creators, and indie makers.
 
-This repo is a small public collection of static JSON datasets. The data is meant to be easy to read in a pull request, easy to validate in CI, and easy to consume from scripts, sites, or a future API.
+This repo is a public collection of static JSON datasets. The data is designed to be easy to review in pull requests, validate in CI, consume from scripts and sites, and publish as a static API.
 
-The data may be served by `api.riyo.me`, but this repository does not contain an API server and does not depend on any private codebase.
+The data may be served by `api.riyo.me`. This repository does not contain an API server and does not depend on a private backend.
 
 ## What This Is
 
-- Human-editable JSON files under `datasets/`
+- Human- and AI-curated JSON files under `datasets/`
 - JSON Schemas under `schemas/`
 - TypeScript scripts for validation and normalized builds
-- Source-tracked starter data for platforms, launch sites, file types, licenses, countries, and software distribution notes
+- Source-tracked data with explicit verification timestamps
+- A source repository for periodically regenerated static API output
 
 ## What This Is Not
 
-- A database
-- A scraper
-- A legal, tax, policy, or compliance reference
+- A database server
+- An authoritative legal, tax, policy, security, or compliance reference
 - A private API implementation
-- A guarantee that every platform rule is current
+- A guarantee that every record is current or complete
 
-Every entry has sources and a `last_checked` date, but humans should verify anything important before relying on it.
-
-## Example Uses
-
-- Fill dropdowns or reference pages in maker tools
-- Build static lookup tables for websites
-- Seed a public API with reviewed JSON data
-- Compare software distribution options
-- Track source links for platform and license research
+Some datasets may be periodically researched and updated by scheduled AI agents. Automated agents must preserve source provenance, follow the schemas, and operate under `docs/AI-DATA-GUIDE.md`. Important information should still be verified against the cited primary sources.
 
 ## Dataset Categories
 
@@ -41,18 +33,28 @@ Every entry has sources and a `last_checked` date, but humans should verify anyt
 | File types | `datasets/file-types/` | Common extensions, MIME types, and usage notes |
 | Licenses | `datasets/licenses/` | Short license reference entries with SPDX/source links |
 | Countries | `datasets/countries/` | Creator/developer monetization notes by country |
+| Security | `datasets/security/` | Vulnerabilities and security advisories |
+| Ransomware | `datasets/ransomware/` | Publicly reported ransomware incidents |
+| EOL | `datasets/eol/` | Product and version support lifecycles |
+| Emulation | `datasets/emulation/` | Emulator and compatibility observations |
+| Services | `datasets/services/` | Developer-service limits, quotas, and plan constraints |
+
+## AI-maintained data
+
+Scheduled research agents may update the five dynamic groups: Security, Ransomware, EOL, Emulation, and Services. Each agent should be assigned one group and must follow [`docs/AI-DATA-GUIDE.md`](docs/AI-DATA-GUIDE.md).
+
+The intended pipeline is:
+
+```text
+research agents -> datasets/ -> schema validation -> normalized build -> dist/ -> static API/CDN
+```
+
+Agents should not add unsourced claims. When evidence is incomplete, the record should express uncertainty instead of guessing.
 
 ## Validate
 
-Install dependencies:
-
 ```sh
 npm install
-```
-
-Validate every dataset file:
-
-```sh
 npm run validate
 ```
 
@@ -70,32 +72,31 @@ npm run check
 
 ## Output
 
-The build script writes:
+The build writes `dist/index.json` plus one JSON file per dataset group. Each group output is sorted by `id` and includes `total_count` and `generated_at` metadata.
 
-- `dist/index.json`
-- `dist/platforms.json`
-- `dist/launch-sites.json`
-- `dist/software-distribution.json`
-- `dist/file-types.json`
-- `dist/licenses.json`
-- `dist/countries.json`
+Dynamic output includes:
 
-Each group output is sorted by `id` and includes a small metadata block with `total_count` and `generated_at`.
+- `dist/security.json`
+- `dist/ransomware.json`
+- `dist/eol.json`
+- `dist/emulation.json`
+- `dist/services.json`
+
+These generated files can be published directly behind a static host/CDN, including a future `api.riyo.me` deployment.
 
 ## Contributing
 
-Contributions are welcome, especially corrections with better source links.
+Contributions are welcome, especially corrections with better primary-source links.
 
 When adding or changing data:
 
 - Keep entries factual and conservative.
-- Use `unknown`, `partial`, `yes`, `no`, `varies`, or `needs_verification` when a field is not clear.
 - Add source URLs, preferably official documentation.
-- Update `last_checked` when you personally review a source.
-- Do not scrape data into this repository.
-- Do not add private credentials, private URLs, or deployment details.
+- Update verification timestamps when sources are reviewed.
+- Do not add private credentials, private URLs, leaked personal data, or copyrighted payloads.
+- For AI-maintained groups, follow `docs/AI-DATA-GUIDE.md` and the corresponding schema.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the general contribution workflow.
 
 ## Licenses
 

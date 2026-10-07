@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api.riyo.me/schemas/emulation-compatibility.schema.json",
+  "title": "Emulation compatibility record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "emulator", "platform", "compatibility", "status", "last_checked", "confidence", "sources"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "emulator": { "type": "string", "minLength": 1 },
+    "platform": { "type": "string", "minLength": 1 },
+    "title": { "type": ["string", "null"] },
+    "title_id": { "type": ["string", "null"] },
+    "tested_version": { "type": ["string", "null"] },
+    "compatibility": { "enum": ["perfect", "playable", "in_game", "boots", "broken", "unknown"] },
+    "status": { "enum": ["current", "historical", "needs_verification"] },
+    "issues": { "type": "array", "items": { "type": "string" } },
+    "required_settings": { "type": "array", "items": { "type": "string" } },
+    "first_seen": { "type": "string", "format": "date-time" },
+    "last_seen": { "type": "string", "format": "date-time" },
+    "last_checked": { "type": "string", "format": "date-time" },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "sources": { "$ref": "#/$defs/sources" }
+  },
+  "$defs": {
+    "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" } },
+    "source": {
+      "type": "object", "additionalProperties": false, "required": ["url", "type"],
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "type": { "enum": ["official", "database", "research", "news", "community"] },
+        "title": { "type": "string" },
+        "published_at": { "type": "string", "format": "date-time" }
+      }
+    }
+  }
+}
